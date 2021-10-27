@@ -4,7 +4,7 @@
   "description": "This is a back end API to handle Front end Auth requests",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/index.js"
+    "dev": "nodemon --exec babel-node --experimental-specifier-resolution=node src/server.js"
   },
   "repository": {
     "type": "git",
